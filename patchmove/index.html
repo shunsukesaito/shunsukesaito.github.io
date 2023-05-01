@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>PatchMove: Patch-based Fast Image Interpolation with Greedy Bidirectional Correspondence</title><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head><body bgcolor="#ffffff" text="#000000" link="#0000a0" vlink="#0000ff"><table width="800" align="center"><tbody><tr><td><center><h1>PatchMove: Patch-based Fast Image Interpolation with Greedy Bidirectional Correspondence</h1>
+<hr noshade=""><h3></h3><table><tbody><tr>
+<td valign="top"><center><a href="http://www.mlab.phys.waseda.ac.jp/member/~shunsaito/">Shunsuke Saito</a></center><center><i>Waseda University</i></center></td><td width="30">&nbsp;</td>
+<td valign="top"><center><a href="https://scholar.google.co.jp/citations?user=IkrP_X8AAAAJ&hl=ja">Ryuuki Sakamoto</a></center><center><i>Yahoo Japan Corp.</i></center></td>
+<td width="30">&nbsp;</td><td valign="top"><center><a href="http://www.mlab.phys.waseda.ac.jp/?page_id=607&lang=en">Shigeo Morishima</a></center><center><i>Waseda University</i></center></td>
+<td width="30">&nbsp;</td></tr></tbody></table><br><br><table align="center"><tbody><tr><td><a href="teaser.jpg"><img width="800" src="teaser.jpg"></a></td></tr></tbody></table><div align="left">
+<i>(a) and (b) show input images with motion parallax. Simple patch-based interpolation causes unwanted blurring
+and loss of detailed texture, such as in (c). In such a challenging situation, the texture reconstruction algorithm renders an
+intermediate frame (d) that is as fine as the ground truth (e).</i>
+</div><br><br><table><tbody><tr><td width="800"><hr noshade="">
+<h3>Abstract</h3><div align="left">
+<p>In this paper, we present a method for the plausible interpolation of images. This method has several applications, such as for smooth view interpolation, 
+low frame-rate video upsampling, and animation. The central idea is to quickly form dense correspondences using a patch-based nearest-neighbor search method 
+called PatchMatch. However, the conventional PatchMatch method does not always find an accurate correspondence. This means that some patches do not find appropriate 
+counterparts. Our method employs a greedy algorithm and an occlusion handling technique to correct inaccurate correspondences. Furthermore, our texture reconstruction 
+method successfully reduces blurring effects. We demonstrate that our method significantly reduces the computation time required for interpolation, and show that 
+the quality of reconstructed images is almost identical to that of those generated using state-of-the-art methods.</p></div><p></p>
+<br>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/wrUwrUdRqBo" frameborder="0" allowfullscreen></iframe><br><br><br><hr noshade="">
+<h3>Publication</h3><div align="left"><p>Shunsuke Saito, Ryuuki Sakamoto, Shigeo Morishima. <b>PatchMove: Patch-based Fast Image Interpolation with Greedy Bidirectional Correspondence</b>. <i> Pacific Graphics 2014 (Short Paper)</i>
+<a href="patchmove.bib"><img src="ico_bib.jpg" border="0"></a>&nbsp;<a href="http://www.mlab.phys.waseda.ac.jp/member/~shunsaito/pg_patchmove.pdf"><img src="ico_pdf.jpg" border="0"></a></p></div><hr noshade="">
+<h3>Links and Downloads</h3><table><tbody><tr><td valign="top"><center>Paper<br><a href="http://www.mlab.phys.waseda.ac.jp/member/~shunsaito/pg_patchmove.pdf"><img src="ico_bigpdf.jpg" border="0"></a><p></p></center></td><td width="30">&nbsp;</td>
+<td valign="top"><center>Bib Text<br><a href="patchmove.bib"><img src="bibtex.jpg" border="0"></a><p></p></center></td></tr></tbody></table><br><hr noshade="">
+<h3>Acknowledgements</h3><div align="left">
+<p>This study was supported in part by ”R&D Program for Implementation of Anti-Crime and Anti-Terrorism Technologies for a Safe and Secure Society”,
+ Funds for integrated promotion of social system reform and research and development of the Ministry of Education, Culture, Sports, Science and Technology, 
+ the Japanese Government.</p></div><p></p><center><a href="http://www.mlab.phys.waseda.ac.jp/member/~shunsaito/"><img src="back-icon.jpg" border="0"></a></center></td></tr></tbody></table><p></p></center></td></tr></tbody></table></body></html>
